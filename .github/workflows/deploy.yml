@@ -28,6 +28,12 @@ jobs:
           node-version: 20
       - name: Install dependencies
         run: npm install
+      
+      # --- NEW STEP ADDED HERE ---
+      - name: Validate Puzzles
+        run: npm run validate:puzzles
+      # ---------------------------
+
       - name: Build
         run: npm run build
       - name: Setup Pages
