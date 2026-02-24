@@ -43,10 +43,10 @@ export const easyPuzzles: Puzzle[] = [
     bottomClue: 'Pig meat', bottomAnswer: 'PORK',
     middleRungs: [
       { clue: 'Uncovered', answer: 'BARE' },
-      { clue: 'Cook in oven', answer: 'BAKE' },
-      { clue: 'Stop sleeping', answer: 'WAKE' },
-      { clue: 'Awoke', answer: 'WOKE' },
-      { clue: 'Jab with a finger', answer: 'POKE' }
+      { clue: 'Challenge', answer: 'DARE' },
+      { clue: 'Small arrow', answer: 'DART' },
+      { clue: 'Piece of a whole', answer: 'PART' },
+      { clue: 'Harbor', answer: 'PORT' }
     ]
   },
   {
@@ -110,18 +110,17 @@ export const easyPuzzles: Puzzle[] = [
     ]
   },
   {
-
-  id: 'e10', difficulty: 'easy', wordLength: 4,
-  topClue: 'Water from sky', topAnswer: 'RAIN',
-  bottomClue: 'Flying mammals', bottomAnswer: 'BATS',
-  middleRungs: [
-    { clue: 'Burger bread', answer: 'BUNS' },
-    { clue: 'Sacks', answer: 'BAGS' },
-    { clue: 'Sprints', answer: 'RUNS' },
-    { clue: 'Prohibitions', answer: 'BANS' },
-    { clue: 'Insects', answer: 'BUGS' }
-  ]
-},
+    id: 'e10', difficulty: 'easy', wordLength: 4,
+    topClue: 'Water from sky', topAnswer: 'RAIN',
+    bottomClue: 'Flying mammals', bottomAnswer: 'BATS',
+    middleRungs: [
+      { clue: 'Police search', answer: 'RAID' },
+      { clue: 'Spoke', answer: 'SAID' },
+      { clue: 'Beach dirt', answer: 'SAND' },
+      { clue: 'Musical group', answer: 'BAND' },
+      { clue: 'Prohibits', answer: 'BANS' }
+    ]
+  },
   {
     id: 'e11', difficulty: 'easy', wordLength: 4,
     topClue: 'Winter weather', topAnswer: 'SNOW',
