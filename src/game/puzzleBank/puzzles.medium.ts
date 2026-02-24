@@ -73,7 +73,7 @@ export const mediumPuzzles: Puzzle[] = [
       { clue: 'Grizzly animals', answer: 'BEARS' }
     ]
   },
-{
+  {
     id: 'm7', difficulty: 'medium', wordLength: 5,
     topClue: 'Not dark', topAnswer: 'LIGHT',
     bottomClue: 'Number after seven', bottomAnswer: 'EIGHT',
@@ -104,9 +104,9 @@ export const mediumPuzzles: Puzzle[] = [
     middleRungs: [
       { clue: 'Clean with a broom', answer: 'SWEEP' },
       { clue: 'Sharp incline', answer: 'STEEP' },
-      { clue: 'Guide a car', answer: 'STEER' },
-      { clue: 'Absolute or transparent', answer: 'SHEER' },
-      { clue: 'Bed cover', answer: 'SHEET' }
+      { clue: 'Woolly animal', answer: 'SHEEP' },
+      { clue: 'Rest in bed', answer: 'SLEEP' },
+      { clue: 'Freezing rain', answer: 'SLEET' }
     ]
   },
   {
@@ -121,7 +121,7 @@ export const mediumPuzzles: Puzzle[] = [
       { clue: 'Not tall', answer: 'SHORT' }
     ]
   },
-{
+  {
     id: 'm11', difficulty: 'medium', wordLength: 5,
     topClue: 'Seat with a back', topAnswer: 'CHAIR',
     bottomClue: 'Pursue', bottomAnswer: 'CHASE',
