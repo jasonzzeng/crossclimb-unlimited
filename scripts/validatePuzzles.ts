@@ -56,21 +56,29 @@ function validatePuzzle(puzzle: any): string | null {
 
   let hasValidChain = false;
   for (const perm of permutations) {
-    let isValid = true;
+    // 1. Check connection from Top Answer to the first middle rung
+    if (!differsByOneLetter(puzzle.topAnswer, perm[0])) {
+      continue;
+    }
+
+    // 2. Check connections between all middle rungs
+    let isValidMiddle = true;
     for (let i = 0; i < perm.length - 1; i++) {
       if (!differsByOneLetter(perm[i], perm[i + 1])) {
-        isValid = false;
+        isValidMiddle = false;
         break;
       }
     }
-    if (isValid) {
+
+    // 3. Check connection from the last middle rung to Bottom Answer
+    if (isValidMiddle && differsByOneLetter(perm[perm.length - 1], puzzle.bottomAnswer)) {
       hasValidChain = true;
       break;
     }
   }
 
   if (!hasValidChain) {
-    return 'No valid 1-letter ladder chain exists for the middle rows';
+    return 'No valid 1-letter ladder chain exists from top to bottom';
   }
 
   return null; // valid
