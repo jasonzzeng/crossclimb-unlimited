@@ -29,37 +29,37 @@ export const hardPuzzles: Puzzle[] = [
     id: 'h3', difficulty: 'hard', wordLength: 6,
     topClue: 'Flying vehicles', topAnswer: 'PLANES',
     bottomClue: 'Looks intently', bottomAnswer: 'STARES',
-middleRungs: [
-  { clue: 'Earth or Mars', answer: 'PLANET' },
-  { clue: 'Woodworking tool', answer: 'PLANER' },
-  { clue: 'Smoothed with a plane', answer: 'PLANED' },
-  { clue: 'Put in position', answer: 'PLACED' },
-  { clue: 'Locations', answer: 'PLACES' }
-]
+    middleRungs: [
+      { clue: 'Dinner dishes', answer: 'PLATES' },
+      { clue: 'Chalkboard rocks', answer: 'SLATES' },
+      { clue: 'Quenches thirst', answer: 'SLAKES' },
+      { clue: 'Trembles', answer: 'SHAKES' },
+      { clue: 'Divides equally', answer: 'SHARES' }
+    ]
   },
   {
     id: 'h4', difficulty: 'hard', wordLength: 6,
     topClue: 'Expert', topAnswer: 'MASTER',
-    bottomClue: 'Lottery drawing', bottomAnswer: 'RAFFLE',
-middleRungs: [
-  { clue: 'Wheel on a chair', answer: 'CASTER' },
-  { clue: 'Quicker', answer: 'FASTER' },
-  { clue: 'Hesitate', answer: 'FALTER' },
-  { clue: 'Strain (liquid)', answer: 'FILTER' },
-  { clue: 'One who installs pipes', answer: 'FITTER' }
-]
+    bottomClue: 'Poured to the top', bottomAnswer: 'FILLED',
+    middleRungs: [
+      { clue: 'Wheel on a chair', answer: 'CASTER' },
+      { clue: 'Quicker', answer: 'FASTER' },
+      { clue: 'Hesitate', answer: 'FALTER' },
+      { clue: 'Strain liquid', answer: 'FILTER' },
+      { clue: 'Stuffing material', answer: 'FILLER' }
+    ]
   },
   {
     id: 'h5', difficulty: 'hard', wordLength: 6,
-    topClue: 'Light wind', topAnswer: 'BREEZE',
-    bottomClue: 'Dirty mark', bottomAnswer: 'SMUDGE',
-middleRungs: [
-  { clue: 'Develop feathers', answer: 'FLEDGE' },
-  { clue: 'Heavy hammer', answer: 'SLEDGE' },
-  { clue: 'Thick mud', answer: 'SLUDGE' },
-  { clue: 'Like thick mud', answer: 'SLUDGY' },
-  { clue: 'Dirty-looking', answer: 'SMUDGY' }
-]
+    topClue: 'Fail to remember', topAnswer: 'FORGET',
+    bottomClue: 'Hacks from a cold', bottomAnswer: 'COUGHS',
+    middleRungs: [
+      { clue: 'Blacksmith fires', answer: 'FORGES' },
+      { clue: 'Deep ravines', answer: 'GORGES' },
+      { clue: 'Scoops out', answer: 'GOUGES' },
+      { clue: 'Red makeup powders', answer: 'ROUGES' },
+      { clue: 'Uneven surfaces', answer: 'ROUGHS' }
+    ]
   },
   {
     id: 'h6', difficulty: 'hard', wordLength: 6,
@@ -100,26 +100,26 @@ middleRungs: [
   {
     id: 'h9', difficulty: 'hard', wordLength: 6,
     topClue: 'Carnival caller', topAnswer: 'BARKER',
-    bottomClue: 'Cows and bulls', bottomAnswer: 'CATTLE',
-middleRungs: [
-  { clue: 'Drawing pen', answer: 'MARKER' },
-  { clue: 'One wearing a disguise', answer: 'MASKER' },
-  { clue: 'Expert', answer: 'MASTER' },
-  { clue: 'Wheel on a chair', answer: 'CASTER' },
-  { clue: 'Wagon driver', answer: 'CARTER' }
-]
+    bottomClue: 'Syndicate or monopoly', bottomAnswer: 'CARTEL',
+    middleRungs: [
+      { clue: 'Drawing pen', answer: 'MARKER' },
+      { clue: 'One wearing a disguise', answer: 'MASKER' },
+      { clue: 'Expert', answer: 'MASTER' },
+      { clue: 'Wheel on a chair', answer: 'CASTER' },
+      { clue: 'Wagon driver', answer: 'CARTER' }
+    ]
   },
   {
     id: 'h10', difficulty: 'hard', wordLength: 6,
-    topClue: 'Glass container', topAnswer: 'BOTTLE',
+    topClue: 'Dairy spread', topAnswer: 'BUTTER',
     bottomClue: 'Trash on the ground', bottomAnswer: 'LITTER',
-middleRungs: [
-  { clue: 'Sour tasting', answer: 'BITTER' },
-  { clue: 'Bishop’s headdress', answer: 'MITTER' },
-  { clue: 'Babysitter', answer: 'SITTER' },
-  { clue: 'One who installs pipes', answer: 'FITTER' },
-  { clue: 'Slugger', answer: 'HITTER' }
-]
+    middleRungs: [
+      { clue: 'Speak under your breath', answer: 'MUTTER' },
+      { clue: 'Golf club', answer: 'PUTTER' },
+      { clue: 'Light rain sound', answer: 'PATTER' },
+      { clue: 'Baseball hitter', answer: 'BATTER' },
+      { clue: 'Sour tasting', answer: 'BITTER' }
+    ]
   },
   {
     id: 'h11', difficulty: 'hard', wordLength: 6,
@@ -183,14 +183,14 @@ middleRungs: [
   },
   {
     id: 'h16', difficulty: 'hard', wordLength: 6,
-    topClue: 'Peril', topAnswer: 'DANGER',
-    bottomClue: 'Made slightly wet', bottomAnswer: 'DAMPED',
-middleRungs: [
-  { clue: 'Zodiac crab', answer: 'CANCER' },
-  { clue: 'Corrode; decay', answer: 'CANKER' },
-  { clue: 'Finance worker', answer: 'BANKER' },
-  { clue: 'Loud partygoer', answer: 'BANGER' },
-  { clue: 'Park official', answer: 'RANGER' }
-]
+    topClue: 'Performer on stage', topAnswer: 'DANCER',
+    bottomClue: 'Fiddle with machinery', bottomAnswer: 'TINKER',
+    middleRungs: [
+      { clue: 'Peril', answer: 'DANGER' },
+      { clue: 'Park official', answer: 'RANGER' },
+      { clue: 'Horseshoe game piece', answer: 'RINGER' },
+      { clue: 'Vocalist', answer: 'SINGER' },
+      { clue: 'Fishing weight', answer: 'SINKER' }
+    ]
   }
 ];
